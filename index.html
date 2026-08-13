@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fannan CNC & Wood Working | Precision CNC Designs on Wood</title>
+  <meta name="description" content="Fannan CNC & Wood Working – Professional CNC cutting, designing and custom wood work in Daska, Punjab, Pakistan. Owned by Muhammad Naeem." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Supabase JS Client -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header id="header">
+    <div class="container nav">
+      <a href="#home" class="logo">
+        <!-- Custom Logo SVG -->
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="4" width="56" height="56" rx="12" fill="#1c1916" stroke="#c9a227" stroke-width="2"/>
+          <path d="M18 42V22h10c4.4 0 7 2.4 7 6.2 0 2.6-1.4 4.6-3.6 5.5L36 42h-5.2l-3.8-7.6H23V42H18zm5-12.2h4.4c1.8 0 2.8-.9 2.8-2.3s-1-2.3-2.8-2.3H23v4.6z" fill="#c9a227"/>
+          <path d="M40 22h5v20h-5V22z" fill="#8b5a2b"/>
+          <circle cx="48" cy="18" r="3" fill="#c9a227"/>
+        </svg>
+        <div class="logo-text">
+          <strong>Fannan</strong>
+          <span>CNC & Wood Working</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="https://wa.me/923018733533" target="_blank" class="nav-cta">WhatsApp Us</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+          Precision CNC Craftsmanship
+        </div>
+        <h1>Expert <span>CNC & Wood</span> Designs That Impress</h1>
+        <p>From custom furniture and decorative panels to precision signage and 3D relief carving — Fannan CNC delivers high-quality woodworking with modern CNC technology in Daska, Punjab.</p>
+        <div class="hero-buttons">
+          <a href="https://wa.me/923018733533?text=Assalam-o-Alaikum%2C%20I%20want%20to%20discuss%20a%20CNC%20wood%20project" target="_blank" class="btn btn-primary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Chat on WhatsApp
+          </a>
+          <a href="#services" class="btn btn-outline">Our Services</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Decorative CNC illustration -->
+    <div class="hero-visual">
+      <svg viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="40" y="80" width="420" height="320" rx="16" fill="#1c1916" stroke="#c9a227" stroke-width="2"/>
+        <rect x="60" y="100" width="380" height="240" rx="8" fill="#0f0e0c"/>
+        <!-- CNC gantry -->
+        <rect x="80" y="120" width="340" height="12" rx="3" fill="#8b5a2b"/>
+        <rect x="200" y="120" width="16" height="180" rx="3" fill="#c9a227"/>
+        <circle cx="208" cy="310" r="18" fill="#a67c52"/>
+        <circle cx="208" cy="310" r="8" fill="#0f0e0c"/>
+        <!-- Wood piece -->
+        <rect x="100" y="340" width="300" height="40" rx="4" fill="#8b5a2b"/>
+        <path d="M120 350h60M200 355h80M300 350h60" stroke="#c9a227" stroke-width="2" stroke-linecap="round"/>
+        <!-- Decorative cuts -->
+        <path d="M140 200 Q180 160 220 200 T300 200" stroke="#c9a227" stroke-width="2" fill="none" opacity="0.6"/>
+        <path d="M160 240 Q200 200 240 240 T320 240" stroke="#8b5a2b" stroke-width="2" fill="none" opacity="0.5"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="label">What We Offer</div>
+        <h2>Professional CNC & Wood Services</h2>
+        <p>From concept to finished product — we deliver precision, quality and beautiful craftsmanship on every project.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3>CNC Cutting & Routing</h3>
+          <p>High-precision cutting of wood, MDF, plywood and acrylic with clean edges and perfect repeatability for any design.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+          </div>
+          <h3>Custom Design & 3D Relief</h3>
+          <p>We turn your ideas into detailed 3D carvings, decorative panels, logos and artistic wood designs.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <h3>Furniture & Cabinetry</h3>
+          <p>Custom doors, cabinets, table tops, shelves and furniture components manufactured with CNC accuracy.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+          </div>
+          <h3>Signage & Branding</h3>
+          <p>Professional wooden signs, name boards, shop boards and corporate branding elements cut with precision.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3>Fast Turnaround</h3>
+          <p>Efficient production process so you get quality results on time — ideal for both one-off and batch work.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+          </div>
+          <h3>Complete Solutions</h3>
+          <p>From design consultation to final finishing — we support you through the entire woodworking process.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY ========== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <div class="label">Our Work</div>
+        <h2>CNC Design Gallery</h2>
+        <p>Examples of the precision and creativity we bring to every wood project. Real photos of your finished work can replace these placeholders anytime.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <div class="placeholder">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="8" y="12" width="48" height="40" rx="4"/>
+              <path d="M16 28h32M16 36h20M16 44h28"/>
+              <circle cx="48" cy="20" r="4"/>
+            </svg>
+            <span>Decorative Wall Panel</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="placeholder">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 48L32 16l20 32H12z"/>
+              <path d="M32 16v32"/>
+            </svg>
+            <span>3D Relief Carving</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="placeholder">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="10" y="10" width="44" height="44" rx="2"/>
+              <text x="32" y="38" text-anchor="middle" fill="currentColor" font-size="14" font-weight="600">ABC</text>
+            </svg>
+            <span>Custom Wooden Sign</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="placeholder">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="8" y="20" width="48" height="28" rx="2"/>
+              <path d="M16 20v-6h32v6"/>
+              <path d="M20 34h24"/>
+            </svg>
+            <span>Furniture Component</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="placeholder">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="32" cy="32" r="20"/>
+              <path d="M32 18v28M18 32h28"/>
+              <path d="M22 22l20 20M42 22L22 42"/>
+            </svg>
+            <span>Geometric Pattern</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="placeholder">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 40c0-12 8-20 20-20s20 8 20 20"/>
+              <path d="M20 40h24"/>
+              <path d="M28 28c2-4 6-6 10-4"/>
+            </svg>
+            <span>Artistic Wood Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <div class="label" style="color: var(--accent); font-size: 0.85rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px;">About Us</div>
+          <h2>Craftsmanship Meets Modern Technology</h2>
+          <p>Fannan CNC & Wood Working is a professional CNC and wood design workshop based in Daska, Punjab. We specialize in turning ideas into precise, beautiful wooden products using advanced CNC technology.</p>
+          <p>Owned and operated by <strong style="color: var(--text);">Muhammad Naeem</strong>, our workshop focuses on quality, accuracy and customer satisfaction — whether you need a single custom piece or multiple production items.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <strong>CNC</strong>
+              <span>Precision Cutting</span>
+            </div>
+            <div class="stat">
+              <strong>Custom</strong>
+              <span>Design Work</span>
+            </div>
+            <div class="stat">
+              <strong>Quality</strong>
+              <span>First Always</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual">
+          <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="20" y="40" width="360" height="220" rx="12" fill="#0f0e0c" stroke="#2e2a25" stroke-width="2"/>
+            <rect x="40" y="60" width="320" height="160" rx="6" fill="#1c1916"/>
+            <!-- Wood grain suggestion -->
+            <path d="M50 90 Q100 80 150 95 T250 90 T350 100" stroke="#8b5a2b" stroke-width="1.5" opacity="0.4"/>
+            <path d="M50 120 Q120 110 180 125 T300 120 T360 130" stroke="#8b5a2b" stroke-width="1.5" opacity="0.3"/>
+            <path d="M50 150 Q90 145 140 155 T260 150 T360 160" stroke="#8b5a2b" stroke-width="1.5" opacity="0.35"/>
+            <!-- CNC bit -->
+            <rect x="180" y="70" width="10" height="90" rx="2" fill="#c9a227"/>
+            <circle cx="185" cy="170" r="12" fill="#a67c52"/>
+            <text x="200" y="250" fill="#c9a227" font-size="14" font-family="Inter" font-weight="600">Precision • Quality • Craft</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="label">Get In Touch</div>
+        <h2>Start Your Project Today</h2>
+        <p>Ready to bring your wood design idea to life? Send a message or contact us on WhatsApp — we reply quickly.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Contact Details</h3>
+
+          <div class="contact-item">
+            <div class="icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <strong>Phone / WhatsApp</strong>
+              <p><a href="tel:+923018733533">+92 301 8733533</a></p>
+              <p><a href="https://wa.me/923018733533" target="_blank">Chat on WhatsApp →</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <strong>Address</strong>
+              <p>Stadium Road, Daska<br>Punjab, Pakistan</p>
+              <p><a href="https://maps.app.goo.gl/6q4DVzNYGRYZnvoA9" target="_blank">Open in Google Maps →</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <div>
+              <strong>Owner</strong>
+              <p>Muhammad Naeem</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form connected to Supabase -->
+        <div class="contact-form-wrapper">
+          <h3>Send a Message</h3>
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp</label>
+              <input type="tel" id="phone" name="phone" placeholder="03XX XXXXXXX" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us about your CNC / wood project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit" id="submitBtn">
+              <span class="btn-text">Send Message</span>
+              <span class="btn-loading" style="display:none;">Sending...</span>
+            </button>
+            <div id="formStatus" class="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+            <rect x="4" y="4" width="56" height="56" rx="12" fill="#1c1916" stroke="#c9a227" stroke-width="2"/>
+            <path d="M18 42V22h10c4.4 0 7 2.4 7 6.2 0 2.6-1.4 4.6-3.6 5.5L36 42h-5.2l-3.8-7.6H23V42H18zm5-12.2h4.4c1.8 0 2.8-.9 2.8-2.3s-1-2.3-2.8-2.3H23v4.6z" fill="#c9a227"/>
+            <path d="M40 22h5v20h-5V22z" fill="#8b5a2b"/>
+            <circle cx="48" cy="18" r="3" fill="#c9a227"/>
+          </svg>
+          <div>
+            <strong>Fannan CNC & Wood Working</strong>
+            <div style="font-size: 0.8rem; color: var(--muted);">Stadium Road, Daska</div>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="copyright">
+        © 2026 Fannan CNC & Wood Working. All rights reserved. Owned by Muhammad Naeem.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/923018733533?text=Assalam-o-Alaikum%2C%20I%20want%20to%20discuss%20a%20CNC%20wood%20project" 
+     class="whatsapp-float" 
+     target="_blank" 
+     aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
